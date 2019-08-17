@@ -571,6 +571,7 @@ section
 	transform: translateY(-3px);
 	cursor: pointer;
 	margin-left: 20px;
+	margin-right: 5px;
 }
 .header.scrolled .hamburger
 {
@@ -1046,7 +1047,7 @@ section
 }
 
 /* add something */
-.logo a:hover{
-	color: white;
-	text-decoration: none;
+a:hover{
+	color: white !important;
+	text-decoration: none !important;
 }

@@ -160,7 +160,7 @@ class Menu extends Component {
             <ul>
               {
                 menus.map((m, index) => {
-                  return <Link key={index} to={m.to} className="main_nav_item">{m.label}</Link>
+                  return <Link key={index} to={m.to} className="main_nav_item" onClick={() => this.setState({ isShowMenu: false })}>{m.label}</Link>
                 })
               }
             </ul>

@@ -1,4 +1,13 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link, NavLink, Switch } from 'react-router-dom';
+
+const menus = [
+    { label: "Home", to: "/", exact: true },
+    { label: "Offers", to: "/offers", exact: false },
+    { label: "News", to: "/news", exact: false },
+    { label: "About Us", to: "/about", exact: false },
+    { label: "Contact", to: "/contact", exact: false }
+]
 
 class CopyRight extends Component {
     render() {
@@ -21,11 +30,11 @@ class CopyRight extends Component {
                             <div className="footer_nav_container d-flex flex-row align-items-center justify-content-lg-end">
                                 <div className="footer_nav">
                                     <ul className="footer_nav_list">
-                                        <li className="footer_nav_item"><a href="#">home</a></li>
-                                        <li className="footer_nav_item"><a href="about.html">about us</a></li>
-                                        <li className="footer_nav_item"><a href="offers.html">offers</a></li>
-                                        <li className="footer_nav_item"><a href="blog.html">news</a></li>
-                                        <li className="footer_nav_item"><a href="contact.html">contact</a></li>
+                                        {
+                                            menus.map((m, index) => {
+                                                return <li className="footer_nav_item"><Link key={index} to={m.to} >{m.label}</Link></li>
+                                            })
+                                        }
                                     </ul>
                                 </div>
                             </div>

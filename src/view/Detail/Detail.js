@@ -42,7 +42,7 @@ class Detail extends Component {
                 <Reviews />
                 {/* Location on Map */}
                 <Element className="location_on_map" name="location">
-                  <div className="location_on_map_title">location on map</div>
+                  <div className="location_on_map_title mb-4">location on map</div>
                   {/* Google Map */}
                   <GoogleMap />
                 </Element >
