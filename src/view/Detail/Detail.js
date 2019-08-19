@@ -9,18 +9,15 @@ import HotelInfo from './component/HotelInfo';
 import Room from './component/Rooms';
 import Reviews from './component/Reviews';
 import GoogleMap from '../Contact/component/GoogleMap';
+
 var Scroll = require('react-scroll');
 var Element = Scroll.Element;
-var scroller = Scroll.scroller;
-
 
 class Detail extends Component {
-
 
   componentDidMount() {
     window.scrollTo(0, 0)
   }
-
 
   render() {
 

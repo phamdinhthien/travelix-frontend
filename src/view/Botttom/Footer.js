@@ -11,7 +11,7 @@ class Footer extends Component {
                             <div className="footer_col">
                                 <div className="footer_content footer_about">
                                     <div className="logo_container footer_logo">
-                                        <div className="logo"><a href="#"><img src={require("../../images/logo.png")} alt="" />travelix</a></div>
+                                        <div className="logo"><a href="#"><img src={require("../../images/logo.png")} alt="" />traveliz</a></div>
                                     </div>
                                     <p className="footer_about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                       Vivamus quis vu lputate eros, iaculis consequat nisl. Nunc et suscipit urna. Integer

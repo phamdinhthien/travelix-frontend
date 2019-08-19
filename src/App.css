@@ -1047,7 +1047,10 @@ section
 }
 
 /* add something */
-a:hover{
+.logo a:hover{
 	color: white !important;
+	text-decoration: none !important;
+}
+a:hover{
 	text-decoration: none !important;
 }

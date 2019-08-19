@@ -5,15 +5,15 @@
 
 [Table of Contents]
 
-4. Home
-9. Hotel Info
-	9.1 Hotel Image
-	9.2 Hotel Gallery
-	9.3 Hotel Info Text
-	9.4 Hotel Info Tags
-10. Rooms
-11. Reviews
-12. Location on Map
+1. Home
+2. Hotel Info
+	2.1 Hotel Image
+	2.2 Hotel Gallery
+	2.3 Hotel Info Text
+	2.4 Hotel Info Tags
+3. Rooms
+4. Reviews
+5. Location on Map
 
 
 ******************************/
@@ -29,7 +29,7 @@
 }
 
 /*********************************
-9. Hotel Info
+2. Hotel Info
 *********************************/
 
 .single_listing
@@ -93,7 +93,7 @@
 }
 
 /*********************************
-9.1 Hotel Image
+2.1 Hotel Image
 *********************************/
 
 .hotel_image
@@ -172,7 +172,7 @@
 }
 
 /*********************************
-9.2 Hotel Gallery
+2.2 Hotel Gallery
 *********************************/
 
 .hotel_gallery
@@ -225,7 +225,7 @@
 }
 
 /*********************************
-9.3 Hotel Info Text
+2.3 Hotel Info Text
 *********************************/
 
 .hotel_info_text
@@ -238,7 +238,7 @@
 }
 
 /*********************************
-9.4 Hotel Info Tags
+2.4 Hotel Info Tags
 *********************************/
 
 .hotel_info_tags
@@ -256,7 +256,7 @@
 }
 
 /*********************************
-10. Rooms
+3. Rooms
 *********************************/
 
 .rooms
@@ -317,7 +317,7 @@
 }
 
 /*********************************
-11. Reviews
+4. Reviews
 *********************************/
 
 .reviews
@@ -401,7 +401,7 @@
 }
 
 /*********************************
-12. Location on Map
+4. Location on Map
 *********************************/
 
 .location_on_map

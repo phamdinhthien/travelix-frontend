@@ -25,7 +25,7 @@ class GoogleMap extends Component {
                     <Marker
                         lat={21.0278}
                         lng={105.8342}
-                        name="My Marker"
+                        name="Here is where you find"
                         color="red"
                     />
                 </GoogleMapReact>

@@ -82,6 +82,12 @@ class Menu extends Component {
     })
   }
 
+  componentDidUpdate() {
+    if (this.state.isOpenSearch) {
+      document.getElementById('inputSearch').focus();
+    }
+  }
+
   onChangeContentSearch = (e) => {
     var target = e.target;
     var value = target.value;
@@ -124,7 +130,7 @@ class Menu extends Component {
               <div className="row">
                 <div className="col main_nav_col d-flex flex-row align-items-center justify-content-start">
                   <div className="logo_container">
-                    <div className="logo"><a href="#"><img src={require("../../images/logo.png")} alt="" />travelix</a></div>
+                    <div className="logo"><a href="#"><img src={require("../../images/logo.png")} alt="" />traveliz</a></div>
                   </div>
                   <div className="main_nav_container ml-auto">
                     <ul className="main_nav_list">
@@ -137,7 +143,7 @@ class Menu extends Component {
                   </div>
                   <div className="content_search ml-lg-0 ml-auto" ref="megaMenu">
                     {this.state.isOpenSearch ?
-                      <input type="text" className="form-control" required="required" value={this.state.contentSearch} onChange={this.onChangeContentSearch} />
+                      <input type="text" className="form-control" id="inputSearch" required="required" value={this.state.contentSearch} onChange={this.onChangeContentSearch} />
                       :
                       null
                     }
